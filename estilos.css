@@ -1,0 +1,74 @@
+/* PHONE */
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: rgb(161, 142, 142);
+}
+ #navContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
+    visibility: hidden;
+} 
+#navContainer.visibility{
+    opacity: 1;
+    visibility: visible;
+}
+#imgLogo{
+    width: 50px;
+    height: 50px;
+}
+#listaNav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+#listaNav>li>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#iconHamb, #closeNav{
+    border: 0;
+    background-color: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+#closeNav{
+    color: white;
+}
+/* TABLET */
+@media (min-width: 700px) {
+    body{
+        background-color: aqua;
+    }
+}
+  
+
+/* PC */
+@media (min-width: 1200px) {
+    body{
+        background-color: rgb(28, 41, 41);
+    }
+    #iconHamb, #closeNav{
+        display: none;
+    }
+    #navContainer{
+        display: flex;
+        flex-direction: row;
+    }
+}

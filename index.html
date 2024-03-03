@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mates de Urugay</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
 </head>
+
 <body>
     <header>
-        <h3 id="textHeader"> 20% PAGOS EN EFECTIVO</h3>
-    </header>
-    <nav>
-        <img src="assets/img/logo.jpg" alt="logo matesdeuruguay" id="imglogo">
-        <div>
-           <ul id="listaNav">
+
+        <img src="assets/img/logo.jpg" alt="logo matesdeuruguay" id="imgLogo">
+        <button id="iconHamb" >
+            <i class="bi bi-list"></i>
+        </button>
+        <nav id="navContainer">
+            <button id="closeNav">
+                <i class="bi bi-x-square"></i>
+            </button>
+
+
+            <ul id="listaNav">
                 <li>
                     <a href="PRODUCTOS">PRODUCTOS</a>
                 </li>
@@ -23,17 +33,37 @@
                 <li>
                     <a href="REDES SOCIALES">REDES SOCIALES</a>
                 </li>
-           </ul>
-        </div>
-        <div>
-            <li>barra</li>
-            <li>user</li>
-            <li>carro</li>
-        </div>
-    </nav>
+                <li>
+                    <a href="REDES SOCIALES">user</a>
+                </li>
+                <li>
+                    <a href="REDES SOCIALES">carro</a>
+                </li>
+                <li>
+                    <a href="REDES SOCIALES">REDES SOCIALES</a>
+                </li>
+            </ul>
 
+        </nav>
+    </header>
+
+    <main>
+        <div id="divPresentacion">
+            <h1>Somos Mates de uruguay
+            </h1>
+            <h2>Hacemos mates artesanales a la medida del cliente, tenemos lo que buscas y mucho mas!
+            </h2>
+            <h3>
+                Somos fabricantes de un amplio catalogo de productos!
+            </h3>
+        </div>
+        <div id="divDestacados">
+
+        </div>
+    </main>
 
 
     <script src="mates.js"></script>
 </body>
+
 </html>
