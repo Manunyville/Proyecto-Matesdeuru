@@ -80,6 +80,12 @@ header{
     align-content: center;
     justify-content: center;
 }
+.categoria{
+    gap: 1rem;
+    padding: 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.503);
+}
 .productos{
     display: flex;
     flex-direction: column;
@@ -87,12 +93,18 @@ header{
     text-align: center;
     width: 10rem;
     border: 3px solid black;
+    gap: 5px;
 }
 .imgProd{
     width: 10rem;
     height: 10rem;
 }
-
+.comprar{
+    padding: 2px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.503);
+}
 
 
 
