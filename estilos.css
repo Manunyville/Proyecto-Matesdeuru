@@ -105,7 +105,9 @@ header{
     color: white;
     background-color: rgba(0, 0, 0, 0.503);
 }
-
+#imgcar{
+    width: 70vw;
+}
 
 
 /* TABLET */
